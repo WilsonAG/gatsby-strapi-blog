@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { SocialMedia } from "../SocialMedia/SocialMedia"
+import { Courses } from "../Courses"
 
 import "./Menu.scss"
 
@@ -16,8 +17,10 @@ export const Menu = () => {
         provident delectus repudiandae ipsum voluptatibus magnam nostrum
         cupiditate aut laborum.
       </p>
-      <SocialMedia />
+      <Courses />
+
       <h5>Lista de cursos</h5>
+      <SocialMedia />
     </div>
   )
 }
