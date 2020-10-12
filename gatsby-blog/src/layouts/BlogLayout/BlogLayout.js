@@ -5,10 +5,10 @@ import { Menu } from "../../components/Menu"
 import "./BlogLayout.scss"
 
 export const BlogLayout = props => {
-  const { children } = props
+  const { children, className } = props
 
   return (
-    <Container fluid className="blog-layout">
+    <Container fluid className={`blog-layout ${className || ""}`}>
       <Grid>
         <Grid.Column mobile={16} tablet={16} computer={4}>
           <Menu />

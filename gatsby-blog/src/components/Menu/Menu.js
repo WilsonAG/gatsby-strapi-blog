@@ -17,10 +17,10 @@ export const Menu = () => {
         provident delectus repudiandae ipsum voluptatibus magnam nostrum
         cupiditate aut laborum.
       </p>
-      <Courses />
-
       <h5>Lista de cursos</h5>
       <SocialMedia />
+
+      <Courses />
     </div>
   )
 }
